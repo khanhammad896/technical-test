@@ -15,7 +15,7 @@ export default function TabLayout() {
       <StatusBar style="light" />
       <Tabs
         screenOptions={{
-          tabBarActiveTintColor: Colors[colorScheme ?? "light"].tint,
+          tabBarActiveTintColor: Colors[colorScheme ?? "light"].primary,
           headerShown: false,
           tabBarShowLabel: false,
           tabBarStyle: {
